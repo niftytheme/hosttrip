@@ -1,0 +1,56 @@
+<!-- BEGIN: Navbar -->
+<!-- Small Nav -->
+<div class="s-nav fixed-top d-lg-none d-block">
+	<div class="container-fluid">
+		<!-- nav contain -->
+		<div class="nav-contain d-flex align-items-center justify-content-lg-center justify-content-between">
+			<!-- brand -->
+			<a href routerLink="" class="brand navbar-link">HostTrip</a>
+			<!-- toggle button -->
+			<button id="toggle-nav">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>
+	</div>
+</div>
+<!-- Main Nav -->
+<nav class="fixed-top p-0">
+	<div class="container">
+		<!-- Nav contain -->
+		<div class="nav-contain d-lg-flex align-items-center justify-content-center">
+			<!-- Brand -->
+			<a href routerLink="" class="brand navbar-link">HostTrip</a>
+			<!-- Nav item contain -->
+			<ul class="navbar-nav flex-lg-row ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link navbar-link" href routerLink="compare">Compare</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link navbar-link" href routerLink="review">Review</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link navbar-link" href routerLink="aboutUs">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link navbar-link" href routerLink="pricing">Pricing</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link" href="#" onclick="return false;">Company</a>
+					<!-- Dropdown List -->
+					<ol class="p-0">
+						<li><a href routerLink="privacy" class="navbar-link">Privacy</a></li>
+						<li><a href routerLink="terms" class="navbar-link">Terms</a></li>
+					</ol>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link navbar-link" href routerLink="">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link navbar-link" href routerLink="user">Login</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>

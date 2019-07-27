@@ -1,0 +1,52 @@
+footer {
+  padding: 40px 0;
+  background: #000;
+}
+footer ul {
+  margin-bottom: 30px;
+}
+footer .list-head {
+  color: #c1c3ce;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+footer li a {
+  color: #747485;
+  transition: color .2s ease;
+}
+footer li a i {
+  min-width: 22px;
+}
+footer li a:hover {
+  color: #c1c3ce;
+}
+/* Copyright */
+.copyright {
+  margin-top: 20px;
+}
+.copyright p {
+  color: #747485;
+  font-size: 14px;
+}
+.copyright ul {
+  margin-bottom: 0
+}
+/* ------------------------------------------------- */
+
+/* -- BEGIN: Media Query -- */
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px)  {
+  footer .list-head {
+    font-size: 14px;
+  }
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  footer ul {
+    margin-bottom: 20px
+  }
+}

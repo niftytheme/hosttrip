@@ -1,0 +1,179 @@
+<!-- BEGIN: Navbar -->
+<!-- Small Nav -->
+<div class="s-nav fixed-top d-lg-none d-block">
+	<div class="container-fluid">
+		<!-- nav contain -->
+		<div class="nav-contain d-flex align-items-center justify-content-lg-center justify-content-between">
+			<!-- brand -->
+			<a href routerLink="" class="brand navbar-link">HostTrip</a>
+			<!-- toggle button -->
+			<button id="toggle-nav">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>
+	</div>
+</div>
+<!-- Main Nav -->
+<nav class="fixed-top p-0">
+	<div class="container">
+		<!-- Nav contain -->
+		<div class="nav-contain d-lg-flex align-items-center justify-content-center">
+			<!-- Brand -->
+			<a href routerLink="" class="brand navbar-link">HostTrip</a>
+			<!-- Nav item contain -->
+			<ul class="navbar-nav flex-lg-row ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link navbar-link" href routerLink="compare">Compare</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link navbar-link" href routerLink="review">Review</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link navbar-link" href routerLink="aboutUs">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link navbar-link" href routerLink="pricing">Pricing</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link" href="#" onclick="return false;">Company</a>
+					<!-- Dropdown List -->
+					<ol class="p-0">
+						<li><a href routerLink="privacy" class="navbar-link">Privacy</a></li>
+						<li><a href routerLink="terms" class="navbar-link">Terms</a></li>
+					</ol>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link navbar-link" href routerLink="contact">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link navbar-link" href routerLink="user">Login</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- BEGIN: Router Outlet -->
+<router-outlet></router-outlet>
+
+<!-- BEGIN: Footer -->
+<footer>
+  <div class="container">
+    <!-- Grid Row -->
+    <div class="row">
+      <!-- Grid Col -->
+      <div class="col-md-3 col-sm-4 col-6">
+        <ul class="list-unstyled">
+          <li class="list-head">HostTrip</li>
+          <li><a href routerLink="compare">Compare</a></li>
+          <li><a href routerLink="review">Review</a></li>
+          <li><a href="#">Comparison</a></li>
+          <li><a href="#">Selector</a></li>
+          <li><a href="#">Article</a></li>
+        </ul>
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+          <li><a href="#"><i class="fa fa-google"></i>Gmail</a></li>
+        </ul>
+      </div>
+      <!-- Grid Col -->
+      <div class="col-md-3 col-sm-4 col-6">
+        <ul class="list-unstyled">
+          <li class="list-head">Top 5</li>
+          <li><a href="#">Wix</a></li>
+          <li><a href="#">Site Ground</a></li>
+          <li><a href="#">Go Daddy</a></li>
+          <li><a href="#">1&1</a></li>
+          <li><a href="#">Host Papa</a></li>
+        </ul>
+      </div>
+      <!-- Grid Col -->
+      <div class="col-md-3 col-sm-4 col-12">
+        <!-- Grid Row -->
+        <div class="row">
+          <!-- Grid Col -->
+          <div class="col-sm-12 col-6">
+            <ul class="list-unstyled">
+              <li class="list-head">Account</li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Settings</a></li>
+              <li><a href="#">Create Account</a></li>
+              <li><a href="#">Host Papa</a></li>
+            </ul>
+          </div>
+          <!-- Grid Col -->
+          <div class="col-sm-12 col-6">
+            <ul class="list-unstyled">
+              <li class="list-head">Support</li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Contact Sales</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Grid Col -->
+      <div class="col-md-3 col-sm-12">
+        <!-- Grid Row -->
+        <div class="row">
+          <!-- Grid Col -->
+          <div class="col-md-12 col-sm-4 col-6">
+            <ul class="list-unstyled">
+              <li class="list-head">Company</li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Team</a></li>
+            </ul>
+          </div>
+          <!-- Grid Col -->
+          <div class="col-md-12 col-sm-4 col-6">
+            <ul class="list-unstyled">
+              <li class="list-head">Languages</li>
+              <ol class="list-unstyled d-flex flex-wrap">
+                <li class="mr-3"><a href="#">AR</a></li>
+                <li class="mr-3"><a href="#">EN</a></li>
+                <li class="mr-3"><a href="#">FR</a></li>
+                <li class="mr-3"><a href="#">JA</a></li>
+                <li class="mr-3"><a href="#">IT</a></li>
+                <li class="mr-3"><a href="#">NJ</a></li>
+                <li class="mr-3"><a href="#">HI</a></li>
+                <li class="mr-3"><a href="#">MA</a></li>
+                <li class="mr-3"><a href="#">CH</a></li>
+                <li class="mr-3"><a href="#">Al</a></li>
+              </ol>
+            </ul>
+          </div>
+          <!-- Grid Col -->
+          <div class="col-md-12 col-sm-4 col-12">
+            <ul class="list-unstyled">
+              <li class="list-head">Nifty Theme</li>
+              <ol class="list-unstyled d-flex flex-wrap">
+                <li class="mr-3"><a href="#">VRocket</a></li>
+                <li class="mr-3"><a href="#">Bueno</a></li>
+                <li class="mr-3"><a href="#">AFC</a></li>
+                <li class="mr-3"><a href="#">DevKeep</a></li>
+                <li class="mr-3"><a href="#">Binary</a></li>
+                <li class="mr-3"><a href="#">Z-Market</a></li>
+              </ol>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+      <p class="text-sm-center mb-4">HostTrip is one of NiftyTheme Websites, only used with explicit written permission.<br>&copy; 2019 NiftyTheme All Rights Reserved</p>
+      <ul class="list-unstyled d-flex align-items-center justify-content-sm-center flex-wrap">
+        <li class="mr-4"><a href="#">Privacy Policy</a></li>
+        <li class="mr-4"><a href="#">Terms of Use</a></li>
+        <li class="mr-4"><a href="#">Cookies</a></li>
+        <li><a href="#">Accessibility</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
