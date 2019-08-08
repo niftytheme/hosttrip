@@ -20,7 +20,10 @@ body {
   position: relative;
 }
 h1, h2, h3, h4, p, a, li, span, div {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+p {
+  line-height: 1.7
 }
 button {
   outline: none !important;
@@ -47,6 +50,12 @@ a {
 }
 .p-0-70 {
   padding: 0 0 70px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
 }
 .line-through {
    text-decoration: line-through;

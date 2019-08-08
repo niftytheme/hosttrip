@@ -12,6 +12,7 @@ header .t-c {
 header .t-c h1 {
   color: #fff;
   font-size: 40px;
+  font-weight: bold
 }
 header .t-c p {
   color: #747485;
